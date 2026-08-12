@@ -1,0 +1,15 @@
+# Compiled binary
+assistant.exe
+assistant
+
+# Object files
+*.o
+include/sqlite3.o
+
+# Runtime-generated data (created when you run the assistant)
+assistant.db
+notes.txt
+
+# Editor/OS clutter (optional but common)
+.vscode/
+*.exe~
