@@ -1,4 +1,4 @@
-# Compiled binary
+# Compiled binaries
 assistant.exe
 assistant
 
@@ -6,10 +6,12 @@ assistant
 *.o
 include/sqlite3.o
 
-# Runtime-generated data (created when you run the assistant)
+# Runtime-generated data
 assistant.db
 notes.txt
 
-# Editor/OS clutter (optional but common)
+# Build directory
+/build/
+
+# VS Code
 .vscode/
-*.exe~
